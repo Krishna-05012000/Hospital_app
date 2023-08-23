@@ -12,7 +12,7 @@ name_number_list=[]
 #{ departments : {'A': ['D1', 'D2'], 'B': ['D3', 'D4']}, 'appointments': {'A': {}}, 'tokens': {'A': 1}}   }
 # hospital_data['departments']['A']='D1'
 
-# for registering Department
+
 @app.route('/register_department', methods=['POST'])
 def register_department():
     data = request.get_json()
