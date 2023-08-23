@@ -1,6 +1,7 @@
 # Hospital_app
 Web based token system for Hospital
 
+USED FLASK (backend) AND STREAMLIT (frontend)
 steps to run:
    1.need to run app.py first  ----> python app.py
    2. then run the streamlit_app.py  ----> streamlit run streamlit_app.py
